@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  perspective: 200px;
+}
+
+body {
+  background: #e2e3e1;
+}
+
+.icon {
+  transform: translateY(-25px) translateX(10px);
+  z-index: 700;
+  float: left;
+}
+
