@@ -32,8 +32,8 @@ class Seat extends React.Component {
 
 
         return (
-            <div>
-                <NavLink to={(this.state.isBooked === true ? '/booked/' : '/seat/') + this.props.seatNum} className='seatWrapper'>
+            <div className='seatWrapper'>
+                <NavLink to={(this.state.isBooked === true ? '/booked/' : '/seat/') + this.props.seatNum} className='seatLink'>
                     <div>
                         <div className='seat' style={this.state.isBooked === true ? seatStyle : undefined}>
                             {this.props.seatNum}

@@ -6,26 +6,28 @@ import './booking/booking.css';
 
 const Seats = (props) => {
         return (
-            <div className='mainHall'>
-                <div className='row'>
-                    {seatData1.map((item) => <Seat seatNum={item.seatNum} key={item.seatNum} />)}
-                </div>
-                <div className='row'>
-                    {seatData2.map(item => <Seat seatNum={item.seatNum} key={item.seatNum} />)}
-                </div>
-                <div className='row'>
-                    {seatData3.map(item => <Seat seatNum={item.seatNum} key={item.seatNum} />)}
-                </div>
-                <div className='row'>
-                    {seatData4.map(item => <Seat seatNum={item.seatNum} key={item.seatNum} />)}
-                </div>
-                <div className='row'>
-                    {seatData5.map(item => <Seat seatNum={item.seatNum} key={item.seatNum} />)}
-                </div>
-                <div className='row'>
-                    {seatData6.map(item => <Seat seatNum={item.seatNum} key={item.seatNum} />)}
-                </div>
-            </div>
+			
+				<div className='mainHall'>
+					<div className='row'>
+						{seatData1.map((item) => <Seat seatNum={item.seatNum} key={item.seatNum} />)}
+					</div>
+					<div className='row'>
+						{seatData2.map(item => <Seat seatNum={item.seatNum} key={item.seatNum} />)}
+					</div>
+					<div className='row'>
+						{seatData3.map(item => <Seat seatNum={item.seatNum} key={item.seatNum} />)}
+					</div>
+					<div className='row'>
+						{seatData4.map(item => <Seat seatNum={item.seatNum} key={item.seatNum} />)}
+					</div>
+					<div className='row'>
+						{seatData5.map(item => <Seat seatNum={item.seatNum} key={item.seatNum} />)}
+					</div>
+					<div className='row'>
+						{seatData6.map(item => <Seat seatNum={item.seatNum} key={item.seatNum} />)}
+					</div>
+				</div>
+			
         );
     }
 

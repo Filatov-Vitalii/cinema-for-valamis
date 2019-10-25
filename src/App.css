@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   perspective: 200px;
+  
 }
 
 body {
@@ -8,8 +9,9 @@ body {
 }
 
 .icon {
-  transform: translateY(-25px) translateX(10px);
+  transform: translateX(-48vw);
   z-index: 700;
   float: left;
+  position: absolute;
 }
 
