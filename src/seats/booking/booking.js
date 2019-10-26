@@ -5,6 +5,7 @@ import './../seat.js';
 
 
 const Booking = (props) => {
+
     return (
         <div className='bookingWindow'>
             <NavLink to='/'>
@@ -16,17 +17,19 @@ const Booking = (props) => {
                 <h2>Место {props.seatNum} свободно</h2>
                 <h5>Для того, чтобы забронировать место, введите свой e-mail</h5>
             </div>
-            <textarea className='e-mail'>
-            </textarea>
+            <input type = 'text' className='e-mail' placeholder='Ваш e-mail'maxLength='33'>
+            </input>
             <br/>
             <NavLink to='/'>
                 <button className='submit' onClick={props.handleClick}>
-                    Отправить
+                    Забронировать
                 </button>
             </NavLink>
         </div>
     );
 }
+
+
 
 
 

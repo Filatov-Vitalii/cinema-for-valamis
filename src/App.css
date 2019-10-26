@@ -5,7 +5,9 @@
 }
 
 body {
-  background: #e2e3e1;
+  /*background: #e2e3e1;*/
+  background: url("https://wallpaperaccess.com/full/187161.jpg") center top no-repeat fixed;
+  background-size: 300%;
 }
 
 .icon {
